@@ -110,7 +110,7 @@ Sometimes the AuthZ mechanism supports both and it's easier the brute force numb
 
 *Use Mass Assignment to bypass security mechanisms.
 E.g., "enter password" mechanism:
-- `POST /api/rest_pass` requires old password.
+- `POST /api/reset_pass` requires old password.
 - `PUT /api/update_user` is vulnerable to MA == can be used to update pass without sending the old one (For CSRF)*
 
 --------------------------------------------------------------------------------------------------------------------------
